@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
 }
 
 a {
@@ -13,4 +14,128 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.Container{
+  background-color: black;
+  overflow: hidden;
+}
+#card-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.carousel-item{
+  /* height: 75%; */
+}
+#card{
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+.card{
+  /* width: 20%; */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  height: 90%;
+  border: 1px solid white;
+  background-color: black;
+  
+}
+.card-body{
+  margin-top: -110px;
+}
+.card-title{
+  font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20.4988px;
+  
+}
+.card-text-special-price{
+  font-weight: 700;
+}
+.card-text-price{
+  font-size: 13px;
+  margin-top: 3px;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.card-text-disc{
+  font-size: 13px;
+  margin-top: 3px;
+  margin-left: 5px;
+  color: green;
+  font-weight: 600;
+}
+.bookmark{
+  position: absolute; 
+  right: 0;
+  top: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.icon{
+ color: white;
+ padding-left: 10px;
+ right: 0;
+  position: absolute;
+  margin-right: 10px;
+}
+
+
+/* //reviews */
+.Container-reviews{
+  background: #F8FDFF;
+  overflow: hidden;
+  
+}
+#card-review{
+  width: 577px;
+  height: 294px;
+  margin-top: 60px;
+  /* left: 121px; */
+  background: #FFFFFF;
+  box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+  border-radius: 20px;
+}
+.card-body-review{
+margin-left: 70px;
+margin-right: 70px;
+margin-top: 70px;
+margin-bottom: 70px;
+
+}
+#card-container-review{
+  display: contents;
+/* flex-wrap: wrap; */
+}
+
+.card-title-review{
+font-size: 24px;
+line-height: 30px;
+}
+
+.circle{
+position: absolute; 
+background-color:#007FF4 ;
+color: white;
+right: 0;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+margin-top: -25px;
+margin-right: -25px;
+text-align: center;
+padding-top: 12px;
+font-size: 30px;
+font-family: 'Helvetica';
+font-style: normal;
+font-size: 59.1145px;
+font-weight: 400;
+
+/* top: calc(50% - 68px/2 + 6.29px); */
+}
+#row{
+  margin-left: 50px;
 }
